@@ -182,9 +182,9 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 2.5rem;
 }
 
 /* Navigation */
@@ -1069,14 +1069,14 @@ body {
 
 /* Section Styles */
 section {
-    padding: 8rem 0;
+    padding: 5rem 0;
 }
 
 .section-title {
     font-size: 3rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     text-align: center;
     letter-spacing: -1px;
     position: relative;
@@ -1337,14 +1337,14 @@ section {
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2.5rem;
-    max-width: 1400px;
+    gap: 2rem;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .project-card {
     background: var(--bg-card);
-    padding: 3rem;
+    padding: 2.5rem 3rem;
     border-radius: 16px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 1px solid var(--border-color);
@@ -1381,7 +1381,7 @@ section {
 
 .project-description {
     color: var(--text-secondary);
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.25rem;
     line-height: 1.8;
     font-size: 1.05rem;
 }
@@ -1407,6 +1407,10 @@ section {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 1.25rem;
+}
+
+.project-features li:last-child {
+    margin-bottom: 0;
 }
 
 /* Skills Section */
