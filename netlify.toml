@@ -1,0 +1,10 @@
+# Netlify config for portfolio
+# Publish the current directory (where index.html lives)
+[build]
+  publish = "."
+
+# If you deploy from a Git repo and your site is in a subfolder (e.g. "portfolio"), set:
+# publish = "portfolio"
+
+# Custom 404 page (Netlify serves 404.html automatically when a path is not found)
+# No extra redirects needed – index.html and resume-viewer.html are served as static files

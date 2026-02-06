@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="56" stroke="#B8860B" stroke-width="3" fill="#fff"/>
+  <circle cx="60" cy="60" r="48" stroke="#B8860B" stroke-width="1.5" fill="none"/>
+  <text x="60" y="68" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#8B4513" text-anchor="middle">OU</text>
+  <text x="60" y="92" font-family="Arial, sans-serif" font-size="8" fill="#666" text-anchor="middle">HYDERABAD</text>
+</svg>

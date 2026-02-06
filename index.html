@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Aman Khan - Applied LLM Engineer & AI/ML Specialist. Expert in Large Language Models, RAG pipelines, MLOps, and production AI systems. Reduced hallucinations by 38%, improved throughput by 45%.">
+    <meta name="keywords" content="Aman Khan, LLM Engineer, AI/ML Specialist, Applied LLM Engineer, RAG, MLOps, Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, Kubernetes, Production AI">
+    <meta name="author" content="Aman Khan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Aman Khan | Applied LLM Engineer & AI/ML Specialist">
+    <meta property="og:description" content="Building production-ready AI systems with expertise in LLMs, RAG pipelines, and scalable ML infrastructure. Reduced hallucinations by 38%, improved throughput by 45%.">
+    <meta property="og:image" content="profile-image.jpeg">
+    <meta property="og:url" content="https://www.linkedin.com/in/amankhan27">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Aman Khan | Applied LLM Engineer & AI/ML Specialist">
+    <meta property="twitter:description" content="Building production-ready AI systems with expertise in LLMs, RAG pipelines, and scalable ML infrastructure.">
+    <meta property="twitter:image" content="profile-image.jpeg">
+    
+    <title>Aman Khan | Applied LLM Engineer & AI/ML Specialist Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">AK</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle automatic theme">
+                Auto Theme: <span id="theme-toggle-state">Off</span>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="floating-shape shape-5"></div>
+            <div class="floating-shape shape-6"></div>
+            
+            <!-- Minimalist Geometric Shapes -->
+            <div class="minimalist-shape circle-shape circle-1"></div>
+            <div class="minimalist-shape circle-shape circle-2"></div>
+            <div class="minimalist-shape circle-shape circle-3"></div>
+            <div class="minimalist-shape triangle-shape triangle-1"></div>
+            <div class="minimalist-shape triangle-shape triangle-2"></div>
+            <div class="minimalist-shape square-shape square-1"></div>
+            <div class="minimalist-shape square-shape square-2"></div>
+            
+            <!-- Animated Particles -->
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="particle particle-6"></div>
+            <div class="particle particle-7"></div>
+            <div class="particle particle-8"></div>
+            
+            <!-- Animated Lines -->
+            <svg class="animated-line line-1" viewBox="0 0 200 200" preserveAspectRatio="none">
+                <path d="M0,100 Q50,50 100,100 T200,100" stroke="rgba(139, 92, 246, 0.15)" stroke-width="2" fill="none"/>
+            </svg>
+            <svg class="animated-line line-2" viewBox="0 0 200 200" preserveAspectRatio="none">
+                <path d="M0,150 Q100,100 200,150" stroke="rgba(236, 72, 153, 0.12)" stroke-width="2" fill="none"/>
+            </svg>
+            <svg class="animated-line line-3" viewBox="0 0 200 200" preserveAspectRatio="none">
+                <path d="M0,50 Q150,100 200,50" stroke="rgba(6, 182, 212, 0.1)" stroke-width="2" fill="none"/>
+            </svg>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="profile-image.jpeg" alt="Aman Khan" id="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <span class="initials">AK</span>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="hero-name">Aman Khan</h1>
+                <p class="hero-title">Applied LLM Engineer & AI/ML Specialist</p>
+                <p class="hero-description">Building production-ready AI systems with a focus on LLM optimization, RAG pipelines, and scalable ML infrastructure</p>
+                <div class="hero-links">
+                    <a href="mailto:amankhanwork27@gmail.com" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/amankhan27" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--linkedin" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Amankhan2370" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--github" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:amankhanwork27@gmail.com" class="social-icon social-icon--email" aria-label="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="tel:+12146066730" class="social-icon social-icon--phone" aria-label="Phone">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">38%</div>
+                        <div class="stat-label">Hallucination Reduction</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">45%</div>
+                        <div class="stat-label">Throughput Improvement</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1200+</div>
+                        <div class="stat-label">QPS Served</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Research Accuracy</div>
+                    </div>
+                </div>
+                <div class="about-main">
+                    <p class="about-text">
+                        I work at the intersection of applied machine learning, modern AI systems, and real-world deployment. Currently, I'm a graduate student pursuing my MSIS at Northeastern University, where I've gained hands-on experience building, evaluating, and operationalizing ML models that go far beyond coursework requirements.
+                    </p>
+                    <p class="about-text">
+                        My work spans LLMs, particularly transformer-based models, RAG pipelines, and LLMOps, alongside reinforcement learning and end-to-end MLOps. I'm driven by the challenge of turning research ideas into systems that actually run reliably in production. I've built and trained models using Python, PyTorch, and TensorFlow, deployed workflows on AWS (including SageMaker), and implemented experiment tracking, model versioning, and reproducible pipelines.
+                    </p>
+                    <p class="about-text">
+                        Alongside my studies, I serve as a Teaching Assistant for Cloud Computing, supporting students on distributed systems, cloud-native architectures, and deployment fundamentals. I'm also an active member of a university research team working on Synthetic AI, where we explore data generation, evaluation, and robustness techniques for modern ML systems.
+                    </p>
+                    <p class="about-text">
+                        What differentiates my profile isn't just tool familiarity, it's systems thinking. I focus on understanding how models behave in production, how data quality impacts outcomes, and how AI systems scale, fail, and improve over time. I stay current with industry progress in areas like retrieval-augmented generation, model evaluation, and production ML practices, while grounding everything in solid engineering fundamentals.
+                    </p>
+                    <p class="about-text">
+                        I'm targeting AI/ML Engineering roles where I can contribute to building reliable, high-impact ML systems and continue growing at the boundary of research and deployment. If you're hiring for applied AI roles, collaborating on ML research, or building production-grade ML systems, I'd love to connect.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content timeline-content--balanx">
+                        <div class="timeline-header">
+                            <h3>Applied LLM Engineer | GenAI Systems & Evaluation</h3>
+                            <span class="company">Balanx-Bio</span>
+                            <span class="date">Jan 2026 - Present</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Built Pinecone and LoRA RAG pipelines using HuggingFace, reducing hallucinations 38% while converting complex healthcare data into validated structured outputs supporting downstream analytics under real production constraints.</li>
+                            <li>Deployed MLflow-based LLM evaluation pipelines validating grounding accuracy under 500+ QPS real-world query distributions, enabling low-latency production inference, load balancing and reliability for healthcare analytics systems.</li>
+                            <li>Reduced hallucinations using ChromaDB retrieval grounding, increasing answer faithfulness 32% across healthcare and bioinformatics workflows, improving downstream decision reliability under sustained production usage conditions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content timeline-content--falcon">
+                        <div class="timeline-header">
+                            <h3>AI/ML Inference Engineer | LLM Serving & Optimization</h3>
+                            <span class="company">FalconHiTech LLC</span>
+                            <span class="date">May 2025 - Dec 2025</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Designed and optimized vLLM inference pipelines, improving throughput 45% and sustaining high-concurrency traffic while maintaining low-latency responses across production AI applications under continuous real-time usage.</li>
+                            <li>Implemented Python and C++ asynchronous batching, caching, sustaining, and profiling TensorFlow system behavior across 1200 QPS while reducing queue wait times under inference workloads during peak production traffic periods.</li>
+                            <li>Improved vLLM serving stability, F1-score, increasing response accuracy by 14%, and eliminating timeout failures across 6 enterprise environments supporting mission-critical LLM applications under sustained concurrent workloads.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content timeline-content--tessco">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role-one-line">Machine Learning Engineer then - MLOps/ Production ML Pipeline</h3>
+                            <span class="company">Tessco LLC</span>
+                            <span class="date">May 2022 - Aug 2024</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Developed and deployed Kubernetes-hosted machine learning models by enabling intelligent automation and supporting 3x adoption growth across enterprise production workflows under strict operational reliability constraints.</li>
+                            <li>Built MLflow and Kubernetes pipelines automating XGBoost for model training, evaluation, and deployment, reducing manual release effort 42% while improving reproducibility across multiple production machine learning systems.</li>
+                            <li>Enhanced model performance, consistency, using production monitoring, reducing failure incidents 37% and increasing stakeholder trust across 7 open source business workflows relying on continuously deployed machine learning systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <h3>RAG System for Grounded Document QA</h3>
+                    <p class="project-tech">Python, FastAPI, GCP, Vector DB, Terraform</p>
+                    <p class="project-description">Built a retrieval-augmented GenAI system to reduce hallucinations in knowledge-intensive queries within structured application workflows supporting complex information retrieval tasks across internal Transformers analytical use cases.</p>
+                    <ul class="project-features">
+                        <li>Designed data ingestion, chunking, embedding, and vector retrieval pipelines integrated with an LLM backend, incorporating retrieval confidence thresholds and self-correction retries under production-scale operational constraints</li>
+                        <li>Improved answer faithfulness and retrieval relevance by ~36% through citation-backed RAG and retrieval tuning compared to vanilla LLM responses across multiple data sources and practical application scenarios in deployment</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">⚡</div>
+                    <h3>ML / LLM Inference & Serving Optimization</h3>
+                    <p class="project-tech">Python, C++, PyTorch, Terraform</p>
+                    <p class="project-description">Optimized LLM inference pipelines to reduce latency and memory usage through dynamic batching, caching, and compute-cost tradeoff analysis under sustained high-throughput production workloads at scale environments globally.</p>
+                    <ul class="project-features">
+                        <li>Implemented a high-throughput model serving on operating systems with asynchronous request handling, timeout protection, and performance profiling across QPS and p99 latency metrics under production traffic conditions at scale</li>
+                        <li>Reduced end-to-end inference latency from 500ms to 350ms and memory footprint by ~30–40% through batching, caching, and serving optimizations under sustained production workloads at scale globally in worldwide environments</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🔍</div>
+                    <h3>LLM Evaluation & Hallucination Detection Framework</h3>
+                    <p class="project-tech">Python, LLMs, RAG, Evaluation Pipelines</p>
+                    <p class="project-description">Built an automated evaluation framework to assess hallucination rates and grounding quality in LLM and RAG-based systems under real-world query distributions across diverse production environments and deployment scenarios.</p>
+                    <ul class="project-features">
+                        <li>Designed evaluation pipelines using answer–context alignment checks, retrieval confidence thresholds, and adversarial prompt variants across production-scale LLM systems metrics under diverse real-world operational prioritization</li>
+                        <li>Reduced hallucinated responses by ~38% and enabled systematic reliability benchmarking of LLM Evaluation output</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">☸️</div>
+                    <h3>Kubernetes ML Model Serving Platform</h3>
+                    <p class="project-tech">Kubernetes, Docker, MLflow, XGBoost, Python</p>
+                    <p class="project-description">Developed a production-grade ML model serving platform on Kubernetes, enabling automated deployment, scaling, and monitoring of machine learning models in enterprise environments with high availability and reliability.</p>
+                    <ul class="project-features">
+                        <li>Architected Kubernetes-hosted ML pipelines supporting 3x adoption growth across production workflows</li>
+                        <li>Integrated MLflow for experiment tracking, model versioning, and seamless CI/CD workflows</li>
+                        <li>Reduced manual deployment effort by 42% and improved system reproducibility through containerization</li>
+                        <li>Implemented auto-scaling and load balancing for ML inference services handling variable traffic patterns</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🧠</div>
+                    <h3>Synthetic AI Detection & Content Analysis</h3>
+                    <p class="project-tech">Python, PyTorch, Multimodal AI, Transformers</p>
+                    <p class="project-description">Led research and development of an advanced AI system for detecting synthetic AI-generated content across multiple modalities, achieving state-of-the-art accuracy in identifying AI-created text, images, and multimedia.</p>
+                    <ul class="project-features">
+                        <li>Achieved 98% accuracy in multimodal AI-generated content detection across diverse datasets</li>
+                        <li>Designed and implemented deep learning models using PyTorch and Transformer architectures</li>
+                        <li>Conducted comprehensive hallucination analysis and model evaluation on production-scale systems</li>
+                        <li>Contributed to manuscript preparation and research documentation for academic publication</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">☁️</div>
+                    <h3>Production ML Monitoring & Observability System</h3>
+                    <p class="project-tech">Python, MLflow, Prometheus, Grafana, Kubernetes</p>
+                    <p class="project-description">Built a comprehensive ML monitoring and observability platform that tracks model performance, data drift, and system health in real-time, enabling proactive issue detection and automated remediation across 7 production ML workflows.</p>
+                    <ul class="project-features">
+                        <li>Reduced failure incidents by 37% through real-time monitoring and automated alerting systems</li>
+                        <li>Integrated MLflow with Prometheus and Grafana for comprehensive model and infrastructure metrics</li>
+                        <li>Implemented automated model retraining pipelines based on performance degradation thresholds</li>
+                        <li>Enhanced stakeholder trust by providing transparent visibility into model behavior and system reliability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- LLM & GenAI Systems -->
+                <div class="skill-category">
+                    <h3>LLM & GenAI Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Core ML Fundamentals</span>
+                        <span class="skill-tag">Bias–Variance Tradeoff</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">Overfitting & Regularization</span>
+                        <span class="skill-tag">Model Evaluation Metrics</span>
+                        <span class="skill-tag">Precision / Recall / F1 / ROC</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">Optimization (SGD, Adam, Loss Functions)</span>
+                        <span class="skill-tag">Large Language Models (LLMs)</span>
+                        <span class="skill-tag">Transformer Architecture</span>
+                        <span class="skill-tag">Attention Mechanisms</span>
+                        <span class="skill-tag">Tokenization (BPE, WordPiece)</span>
+                        <span class="skill-tag">Context Windows & Memory Limits</span>
+                        <span class="skill-tag">Prompt Engineering (System/User)</span>
+                        <span class="skill-tag">Chain-of-Thought Awareness</span>
+                        <span class="skill-tag">Instruction Tuning</span>
+                        <span class="skill-tag">Supervised Fine-Tuning (SFT)</span>
+                        <span class="skill-tag">PEFT (LoRA, Adapters)</span>
+                        <span class="skill-tag">Hallucination Causes & Mitigation</span>
+                    </div>
+                </div>
+
+                <!-- RAG & Knowledge Grounding -->
+                <div class="skill-category">
+                    <h3>RAG & Knowledge Grounding</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">RAG System Design</span>
+                        <span class="skill-tag">Document Ingestion Pipelines</span>
+                        <span class="skill-tag">Chunking Strategies</span>
+                        <span class="skill-tag">Embeddings (Dense vs Sparse)</span>
+                        <span class="skill-tag">Vector Similarity Search</span>
+                        <span class="skill-tag">Hybrid Search</span>
+                        <span class="skill-tag">Re-ranking</span>
+                        <span class="skill-tag">Grounding & Citation</span>
+                        <span class="skill-tag">Retrieval Confidence Thresholds</span>
+                        <span class="skill-tag">Vector Databases</span>
+                        <span class="skill-tag">Pinecone</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">Structured + Unstructured Data Handling</span>
+                    </div>
+                </div>
+
+                <!-- Inference & Performance Engineering -->
+                <div class="skill-category">
+                    <h3>Inference & Performance Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Model Serving Architectures</span>
+                        <span class="skill-tag">Low-Latency Inference</span>
+                        <span class="skill-tag">High-QPS Systems</span>
+                        <span class="skill-tag">Async Inference</span>
+                        <span class="skill-tag">Dynamic Batching</span>
+                        <span class="skill-tag">Caching Strategies</span>
+                        <span class="skill-tag">Throughput vs Latency Tradeoffs</span>
+                        <span class="skill-tag">Memory Optimization</span>
+                        <span class="skill-tag">GPU Utilization</span>
+                        <span class="skill-tag">vLLM</span>
+                        <span class="skill-tag">Serving Engines (vLLM / Triton)</span>
+                        <span class="skill-tag">Production AI Systems</span>
+                        <span class="skill-tag">Concurrent Request Handling</span>
+                        <span class="skill-tag">Load Balancing</span>
+                        <span class="skill-tag">Auto-Scaling Inference Services</span>
+                    </div>
+                </div>
+
+                <!-- LLM Evaluation & Reliability (includes Training & optimization) -->
+                <div class="skill-category">
+                    <h3>LLM Evaluation & Reliability</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LLM Evaluation Frameworks</span>
+                        <span class="skill-tag">Hallucination Detection</span>
+                        <span class="skill-tag">Groundedness Scoring</span>
+                        <span class="skill-tag">Faithfulness Evaluation</span>
+                        <span class="skill-tag">Answer–Context Alignment</span>
+                        <span class="skill-tag">Adversarial Prompting</span>
+                        <span class="skill-tag">Offline vs Online Evaluation</span>
+                        <span class="skill-tag">A/B Testing for LLMs</span>
+                        <span class="skill-tag">Production Reliability Metrics</span>
+                    </div>
+                    <p class="skill-group-label">Training & optimization</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Distributed Training</span>
+                        <span class="skill-tag">Mixed Precision Training</span>
+                        <span class="skill-tag">Quantization</span>
+                        <span class="skill-tag">Distillation</span>
+                        <span class="skill-tag">Memory Optimization</span>
+                        <span class="skill-tag">Compute-Cost Tradeoff Analysis</span>
+                        <span class="skill-tag">Scaling Laws (High-Level Understanding)</span>
+                        <span class="skill-tag">Multi-GPU Training</span>
+                        <span class="skill-tag">Gradient Accumulation</span>
+                        <span class="skill-tag">Performance Profiling</span>
+                    </div>
+                </div>
+
+                <!-- MLOps & Production AI -->
+                <div class="skill-category">
+                    <h3>MLOps & Production AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">End-to-End ML Pipelines</span>
+                        <span class="skill-tag">Experiment Tracking</span>
+                        <span class="skill-tag">Model Versioning</span>
+                        <span class="skill-tag">CI/CD for ML</span>
+                        <span class="skill-tag">Model Monitoring</span>
+                        <span class="skill-tag">Drift Detection</span>
+                        <span class="skill-tag">Observability</span>
+                        <span class="skill-tag">Rollbacks</span>
+                        <span class="skill-tag">Canary Deployments</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">Model Registry</span>
+                        <span class="skill-tag">Model Lifecycle Management</span>
+                        <span class="skill-tag">Production Deployment Safety</span>
+                    </div>
+                </div>
+
+                <!-- Infrastructure for AI -->
+                <div class="skill-category">
+                    <h3>Infrastructure for AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">GPU Workloads</span>
+                        <span class="skill-tag">Cloud AI Deployment (AWS/GCP/Azure)</span>
+                        <span class="skill-tag">Autoscaling Inference Services</span>
+                        <span class="skill-tag">Distributed Systems Basics</span>
+                        <span class="skill-tag">Python (Primary)</span>
+                        <span class="skill-tag">C++ (Performance-Critical Inference)</span>
+                        <span class="skill-tag">Rust</span>
+                        <span class="skill-tag">Go</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">CUDA</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Async Programming</span>
+                        <span class="skill-tag">API Design for AI Services</span>
+                        <span class="skill-tag">REST / FastAPI</span>
+                        <span class="skill-tag">Backend Services</span>
+                        <span class="skill-tag">Profiling & Benchmarking</span>
+                        <span class="skill-tag">Vector Databases</span>
+                        <span class="skill-tag">Feature Stores (Conceptual)</span>
+                        <span class="skill-tag">Data Pipelines</span>
+                        <span class="skill-tag">Structured + Unstructured Data Handling</span>
+                        <span class="skill-tag">Dataset Versioning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card education-card--northeastern">
+                    <h3>Masters in Computer Science</h3>
+                    <p class="education-school">Northeastern University</p>
+                    <p class="education-date">2024 - 2026</p>
+                </div>
+                <div class="education-card education-card--osmania">
+                    <h3>Bachelor of Engineering in Computer Science</h3>
+                    <p class="education-school">Osmania University</p>
+                    <p class="education-date">2020 - 2024</p>
+                </div>
+            </div>
+
+            <div class="leadership-section">
+                <h3 class="subsection-title">Academic & Leadership Experience</h3>
+                <div class="leadership-grid">
+                    <div class="leadership-card">
+                        <h4>Teaching Assistant, Cloud Computing</h4>
+                        <p class="leadership-org">Northeastern University</p>
+                        <ul class="leadership-description">
+                            <li>Supported graduate-level cloud computing labs and system design sessions by helping students debug real AWS, GCP, and Kubernetes deployments</li>
+                            <li>Translated distributed systems theory into practical, production-grade cloud architectures</li>
+                        </ul>
+                    </div>
+                    <div class="leadership-card">
+                        <h4>Research Team Lead, Synthetic AI Detection</h4>
+                        <p class="leadership-org">USA-Based Research Project</p>
+                        <ul class="leadership-description">
+                            <li>Led end-to-end design and execution of a multimodal AI detection research project focused on hallucination detection and mitigation</li>
+                            <li>Achieved 98 percent accuracy and drove model evaluation, experimentation, and manuscript preparation for publication</li>
+                        </ul>
+                    </div>
+                    <div class="leadership-card">
+                        <h4>Chief Organizer, Google Developer Groups On Campus</h4>
+                        <p class="leadership-org">MJCET</p>
+                        <ul class="leadership-description">
+                            <li>Owned strategy and execution of AI/ML and cloud workshops, built and led cross-functional student teams</li>
+                            <li>Coordinated with faculty and industry speakers, and scaled campus participation by 3× through strong operational leadership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">I'm always open to discussing new opportunities, collaborations, or interesting projects.</p>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/amankhan27" target="_blank" rel="noopener noreferrer" class="contact-item contact-item--linkedin">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    <span>Connect on LinkedIn</span>
+                </a>
+                <a href="https://github.com/Amankhan2370" target="_blank" rel="noopener noreferrer" class="contact-item contact-item--github">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>View on GitHub</span>
+                </a>
+                <a href="mailto:amankhanwork27@gmail.com" class="contact-item contact-item--email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>amankhanwork27@gmail.com</span>
+                </a>
+                <a href="tel:+12146066730" class="contact-item contact-item--phone">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>(214) 606-6730</span>
+                </a>
+                <div class="contact-item contact-item--location">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>San Francisco, CA</span>
+                </div>
+                <div class="contact-item contact-item--resume">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    <span class="contact-item-resume-label">Resume</span>
+                    <div class="contact-item-resume-actions">
+                        <button type="button" class="resume-action-link resume-action-link--icon-only" id="resume-view-btn" aria-label="View resume" title="View resume">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </button>
+                        <a href="Aman-Resume.pdf" download="Aman-Khan-Resume.pdf" class="resume-action-link resume-action-link--icon-only" aria-label="Download resume" title="Download resume">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Aman Khan. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/amankhan27" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/Amankhan2370" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:amankhanwork27@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aman Khan",
+        "jobTitle": "Applied LLM Engineer & AI/ML Specialist",
+        "email": "amankhanwork27@gmail.com",
+        "telephone": "+1-214-606-6730",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Francisco",
+            "addressRegion": "CA",
+            "addressCountry": "US"
+        },
+        "url": "https://www.linkedin.com/in/amankhan27",
+        "sameAs": [
+            "https://www.linkedin.com/in/amankhan27",
+            "https://github.com/Amankhan2370"
+        ],
+        "knowsAbout": [
+            "Large Language Models",
+            "Machine Learning",
+            "Deep Learning",
+            "Retrieval-Augmented Generation",
+            "MLOps",
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "Kubernetes"
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Northeastern University"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Osmania University"
+            }
+        ]
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

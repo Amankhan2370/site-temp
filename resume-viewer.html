@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume – Aman Khan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, sans-serif; background: #1a1a1a; min-height: 100vh; }
+        .viewer-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 1rem;
+            z-index: 9999;
+            background: #fff;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+            pointer-events: auto;
+        }
+        .viewer-close {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            border: none;
+            background: transparent;
+            color: #1a1a1a;
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+        }
+        .viewer-close:hover {
+            color: #000;
+            transform: scale(1.1);
+        }
+        .viewer-close:focus {
+            outline: none;
+        }
+        .viewer-close:focus-visible {
+            outline: 2px solid #6366f1;
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+        .viewer-close svg {
+            width: 24px;
+            height: 24px;
+        }
+        .viewer-pdf-wrap {
+            padding-top: 52px;
+            width: 100%;
+            min-height: calc(100vh - 52px);
+        }
+        .viewer-pdf-wrap iframe {
+            display: block;
+            width: 100%;
+            height: calc(100vh - 52px);
+            min-height: 400px;
+            border: none;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="viewer-header" aria-label="Close and return to site">
+        <button type="button" class="viewer-close" id="close-btn" aria-label="Close and return to website" title="Close and return to website">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+    </header>
+    <div class="viewer-pdf-wrap">
+        <iframe src="Aman-Resume.pdf#toolbar=0&navpanes=0" title="Aman Khan – Resume"></iframe>
+    </div>
+    <script>
+        document.getElementById('close-btn').addEventListener('click', function () {
+            if (window.opener && !window.opener.closed) {
+                window.opener.focus();
+            }
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
