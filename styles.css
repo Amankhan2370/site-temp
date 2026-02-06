@@ -2052,15 +2052,51 @@ section {
     }
 
     .timeline {
-        padding-left: 1.5rem;
+        padding-left: 1rem;
+        max-width: 100%;
     }
 
     .timeline-item {
-        padding-left: 2rem;
+        padding-left: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .timeline-marker {
-        left: -1rem;
+        left: -0.75rem;
+        width: 10px;
+        height: 10px;
+    }
+
+    .timeline-content {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .timeline-header h3 {
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .timeline-description li {
+        font-size: 0.9375rem;
+        line-height: 1.65;
+        margin-bottom: 0.75rem;
+        padding-left: 1.5rem;
+    }
+
+    .timeline-description li:last-child {
+        margin-bottom: 0;
+    }
+
+    .timeline-content:hover {
+        transform: none;
+    }
+
+    body {
+        padding-bottom: max(5rem, env(safe-area-inset-bottom));
+    }
+
+    .footer {
+        padding-bottom: max(3rem, env(safe-area-inset-bottom));
     }
 
     .projects-grid,
@@ -2248,6 +2284,18 @@ section {
     .about-text {
         font-size: 1rem;
         line-height: 1.75;
+    }
+
+    .timeline-content {
+        padding: 1.25rem 1rem;
+    }
+
+    .timeline-header h3 {
+        font-size: 1.125rem;
+    }
+
+    .timeline-description li {
+        font-size: 0.875rem;
     }
     
     .projects-grid,
